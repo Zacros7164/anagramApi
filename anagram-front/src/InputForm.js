@@ -21,7 +21,7 @@ class InputForm extends Component {
         })
         axios({
             method: "POST",
-            url: 'http://localhost:3000/anagramTest',
+            url: `${window.apiHost}/anagramTest`,
             data: {
                 word1,
                 word2
